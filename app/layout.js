@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <body>
           <div style={{fontSize: '24px'}}>
                 <Link href={'/'} style={{padding: '20px'}}>Home</Link>
-                <Link href={'/blog'}>Lihat blog</Link>
+                <Link href={'/blog'}>Lihat Product</Link>
             </div>
           {children}
         </body>
